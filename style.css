@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    background-image: url(./assets/images/background/dark-storm-clouds.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+header {
+    height: 70px;
+    background-color: darkblue;
+    color: whitesmoke;  
+}
+
+aside, main, div.five-day {
+    background-color: lightblue;
+}
+/* share width with below five-day and weather-display classes */
+.weather-search {
+    width: 31%;
+}
+/* adjust search city text size/weight */
+.citysearchtext {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.five-day, .weather-display {
+    width: 66%
+}
+
+.search-ul {
+    text-transform: capitalize;
+}
+/* fill container to max with image */
+img.search-image {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.table-wrapper .column {
+    display: table-cell;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
