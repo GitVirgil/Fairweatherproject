@@ -49,7 +49,7 @@ img.search-image {
 }
 
 div#day-1, div#day-2, div#day-3, div#day-4, div#day-5 {
-    height: 275px;
+    height: 267px;
     width: 175px;
     background-color: darkgrey;
     color: whitesmoke;
@@ -88,19 +88,6 @@ div#mapid {
 .fa:hover {
     opacity: .65;
 }
-
-.fa-linkedin {
-    background: #007bb5;
-    color: white;
-    margin-right: 5px;
-}
-
-.fa-github {
-    background: #2c4762;
-    color: white;
-    margin-left: 5px;
-}
-
 
 
 
