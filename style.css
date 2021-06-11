@@ -28,6 +28,7 @@ aside, main, div.five-day {
 
 .five-day, .weather-display {
     width: 66%;
+    height: 339px;
        
 }
 
@@ -50,7 +51,7 @@ img.search-image {
 }
 
 div#day-1forcast, div#day-2forcast, div#day-3forcast, div#day-4forcast, div#day-5forcast {
-    height: 267px;
+    height: 210px;
     width: 175px;
     background-color: darkgrey;
     color: black;
