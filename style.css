@@ -1,10 +1,10 @@
 body {
     height: 100vh;
-    background-image: url(./assets/images/background/dark-storm-clouds.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: black;
+    
 }
 
 header {
@@ -27,7 +27,8 @@ aside, main, div.five-day {
 }
 
 .five-day, .weather-display {
-    width: 66%
+    width: 66%;
+       
 }
 
 .search-ul {
@@ -48,24 +49,19 @@ img.search-image {
     text-decoration: italic;
 }
 
-div#day-1, div#day-2, div#day-3, div#day-4, div#day-5 {
+div#day-1forcast, div#day-2forcast, div#day-3forcast, div#day-4forcast, div#day-5forcast {
     height: 267px;
     width: 175px;
     background-color: darkgrey;
-    color: whitesmoke;
+    color: black;
     margin: 15px;
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-h2.current-city {
-    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;  
 }
 
 #current-city {
     font-weight: 725px;
-    text-decoration: underline;
-    text-align: center;
+    text-align: left;
 }
 
 #current-cond {

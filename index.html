@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
 
-  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./style.css">
     </head>
 
 <body>
@@ -98,35 +98,82 @@
       <h3 id="current-date" class="text-center"></h3>
       <!-- displays current City and weather icon -->
       <h2 id="current-city" class="p-2">City Date:</h2>
-      <br />
+      <br/>
       <div class="container bg-warning w-100 mb-3 p-3">
-        <section id="temp" class="d-inline-block" style="text-align: left">
+        <div id="temp" class="d-inline-block" style="text-align: left">
+          <!-- displays current humidity-->
+          <h4 id="current-humidity">Humidity:</h4>
           <!-- displays current "feels like" -->
           <h3 id="feels-like">Feels Like:</h3>
           <!-- displays current temperature -->
           <h3 id="current-temp">Temperature:</h3>
-        </section>
-        <section id="other" class="d-inline-block" style="text-align: left; margin-left: 150px">
-          <!-- displays current humidity -->
-          <h4 id="current-humidity">Humidity:</h4>
+        </div>
+        <div id="other" class="d-inline-block" style="text-align: left; margin-left: 150px">
           <!-- displays current wind speed -->
-          <h4 id="current-wind">wind speed:</h4>
+          <h4 id="current-wind">Wind Speed:</h4>
           <!-- displays current UV Index -->
           <h4 id="uvi">UV Index:</h4>
-        </section>
+        </div>
+      </div>
     </main>
 
     <div class="col-md-12 five-day container-sm container-md container-lg float-right text-center mr-3 mt-3 p-3">
-      <!-- these divs are dynamically sourced with five day weather forecast information from javascript -->
+      <!-- Five day weather forecast cards -->
       <h2 class="text-left">5-Day Forecast:</h2>
-      <div id="day-1"></div>
-      <div id="day-2"></div>
-      <div id="day-3"></div>
-      <div id="day-4"></div>
-      <div id="day-5"></div>
+
+      <!-- Five day forcast cards * Day-1*-->
+      <div id="day-1forcast">
+        <div id="temp" class="d-inline-block" style="text-align: left">
+          <h4 id="humidity">Humidity:</h4>    
+          <h3 id="feel-like">Feels Like:</h3>
+                <h3 id="temperature">Temperature:</h3>
+                    <h4 id="wind">Wind Speed:</h4> 
+           <h4 id="uvi">UV Index:</h4>
+        </div>  
     </div>
-  </div>
-  </div>
+    <!-- Five day forcast cards * Day-2* -->
+        <div id="day-2forcast">
+          <div id="temp" class="d-inline-block" style="text-align: left">
+            <h4 id="current-humidity">Humidity:</h4>
+            <h3 id="feels-like">Feels Like:</h3>
+            <h3 id="current-temp">Temperature:</h3>
+             <h4 id="current-wind">Wind Speed:</h4>
+             <h4 id="uvi">UV Index:</h4>
+          </div>
+        </div>
+        <!-- Five day forcast cards * Day-3 *-->
+          <div id="day-3forcast">
+            <div id="temp" class="d-inline-block" style="text-align: left">
+              <h4 id="current-humidity">Humidity:</h4>
+              <h3 id="feels-like">Feels Like:</h3>
+              <h3 id="current-temp">Temperature:</h3>
+               <h4 id="current-wind">Wind Speed:</h4>
+               <h4 id="uvi">UV Index:</h4>
+            </div>
+          </div>
+          <!-- Five day forcast cards * Day-4 *-->
+            <div id="day-4forcast">
+              <div id="temp" class="d-inline-block" style="text-align: left">
+                <h4 id="current-humidity">Humidity:</h4>
+                <h3 id="feels-like">Feels Like:</h3>
+                <h3 id="current-temp">Temperature:</h3>
+                 <h4 id="current-wind">Wind Speed:</h4>
+                 <h4 id="uvi">UV Index:</h4>
+              </div>
+            </div>
+            <!-- Five day forcast cards * Day-5 *-->
+              <div id="day-5forcast">
+                <div id="temp" class="d-inline-block" style="text-align: left">
+                  <h4 id="current-humidity">Humidity:</h4>
+                  <h3 id="feels-like">Feels Like:</h3>
+                  <h3 id="current-temp">Temperature:</h3>
+                   <h4 id="current-wind">Wind Speed:</h4>
+                   <h4 id="uvi">UV Index:</h4>
+                </div>
+              </div>
+    
+          
+  
 
   <div class="w-100" style="height: 75px"></div>
 
@@ -134,7 +181,7 @@
     <div id="mapid" SameSite="none"></div>
   </div>
 
-  <div class="w-100" style="height: 15%"></div>
+  <div class="w-100" style="height: 15%"></div> 
 
   
 
@@ -161,4 +208,4 @@
   <script src="script.js"></script>
 </body>
 
-</html>
+</html>-->
